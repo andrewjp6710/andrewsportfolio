@@ -5,12 +5,12 @@
 	--borderColor:#c1c1c1;
 
 	--mainText:black;
-	--secondaryText:#4b5156;
+	--secondaryText:#3d4246;
 
 	--themeDotBorder:#f2f4f7;
 
-	--previewBg: #cafafe;
-	--previewShadow:#97caef;
+	--previewBg: rgb(235, 255, 255);
+	--previewShadow: rgb(204, 255, 255);
 
 
 	--buttonColor:black;
@@ -56,6 +56,9 @@ body *{
 h1, h2, h3, h4, h5, h6, strong{
 	color: var(--mainText);
 	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+}
+h3, h4,h5,h6{
 	font-weight: 500;
 }
 
@@ -270,8 +273,10 @@ h6 { font-size: 16px;}
 	background-color: var(--previewShadow);
 	max-width: 300px;
 	height: 180px;
-	padding-left: 30px;
-	padding-top: 30px;
+	padding-left: 20px;
+	padding-top: 20px;
+	border-color: red;
+	border-width: 30px;
 }
 
 #preview{
@@ -356,29 +361,31 @@ h6 { font-size: 16px;}
 #python{
 	background-color: lightskyblue;
 }
-#react{
-	background-color: lightsalmon;
-}
 #htmlcss{
-	background-color: lightgreen;
+	background-color: lightskyblue;
 }
-#linux{
-	background-color: lightcyan;
+
+#javascript{
+	background-color: lightskyblue;
 }
 #c{
-	background-color: lightsteelblue;
+	background-color: lightskyblue;
 }
 #azure{
-	background-color: lightslategray;
+	background-color: lightblue;
 }
-#javascript{
-	background-color: lemonchiffon;
+
+#react{
+	background-color: lightblue;
+}
+#linux{
+	background-color: lightblue;
 }
 #aws{
-	background-color: lightcoral;
+	background-color: lightblue;
 }
 #node{
-	background-color: mediumaquamarine;
+	background-color: lightblue;
 }
 
 
@@ -446,7 +453,7 @@ h6 { font-size: 16px;}
 
 .footer{
 	padding: 20px 0px;
-	background-color: rgba(171, 184, 245, 0.671);
+	background-color: rgb(206, 228, 228);
 	text-align:center;
 }
 

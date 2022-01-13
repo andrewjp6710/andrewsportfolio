@@ -11,9 +11,11 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="default.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 <body>
+	<div class = "gary">
 	<!-- spans are in line elements, divs are block containers -->
 	<section class="s1">
 		<div class = whitebox>
@@ -59,11 +61,12 @@
 			</div>
 		</div>
 		</div>
+		</div>
 	</section>
 	
 	<section class="s2">
 		<div class="main-container">
-			<div class ="whitecontainer">
+			
 				<div class="about-wrapper">
 					<div class="about-me">
 						<h4>More about me</h4>
@@ -75,9 +78,7 @@
 							<li>Finalist for Consulting Case Competitions</li>
 
 						<p>From these diverse experiences, I've found my strongest passion to be in building <strong>technological solutions</strong> to create change!</p>
-
 						<hr>
-						
 					</div>
 
 					
@@ -87,14 +88,14 @@
 						<br>
 					</div>
 				</div>
-			</div>
+			
 		</div>
 	</section>
 
 	<section class="s1">
 		<div class="main-container">
 			<h2 style="text-align: center;">Personal Projects</h2>
-			<div class="post-wrapper">
+			<div class="wrapper">
 				<div>
 					<div class="post">
 						<img class="thumbnail" src="images/twitter.jpeg">
@@ -102,6 +103,9 @@
 							<h6 class="post-title">Twitter Consumer Sentiment Analysis</h6>
 							<p class="post-intro">Built a NLP program to analyse consumer sentiment on retail corporations such as Woolworths.</p>
 							
+							<p class ="post-intro"> Technogies used:</p>
+							<li>Python</li>
+							<li>Microsoft Azure</li>
 							<br>
 							<a href="post.html">Read More</a>
 						</div>
@@ -113,8 +117,12 @@
 						<img class="thumbnail" src="images/launchpad.png">
 						<div class="post-preview">
 							<h6 class="post-title">Launchpad</h6>
-							<p class="post-intro">An online collaborative education platform for users hosted on AWS Cloud.</p>
-							<br>
+							<p class="post-intro">An online collaborative education platform for users hosted on AWS Cloud. Users can upload, rate and view resources.</p>
+							
+							<p class ="post-intro"> Technogies used:</p> 
+							<li>Python</li>
+							<li>AWS Cloud</li>
+							<li>React, HTML/CSS, JavaScript</li>
 							<br>
 							<a href="post.html">Read More</a>
 						</div>
@@ -126,8 +134,10 @@
 						<img class="thumbnail" src="images/background.jpeg">
 						<div class="post-preview">
 							<h6 class="post-title">Personal Portfolio</h6>
-							<p class="post-intro">This website was built to showcases my resume, experience, and personal projects!</p>
-
+							<p class="post-intro">This website was built to showcases my resume, experiences, skills, and various personal projects!</p>
+							<p class ="post-intro"> Technogies used:</p>
+							<li>HTML/CSS</li>
+							<li>JavaScript</li>
 							<br>
 							<a href="post.html">Read More</a>
 						</div>
@@ -139,8 +149,10 @@
 						<img class="thumbnail" src="images/tradingbot.jpeg">
 						<div class="post-preview">
 							<h6 class="post-title">Algorithmic Trading Bot</h6>
-							<p class="post-intro">Built an equal-weight S&P500 Index Fund using python and IEX Cloud API.</p>
-							<br>
+							<p class="post-intro">Currently building an algorithm which invests through a quantitative momentum investing strategy through python and IEX Cloud API.  </p>
+							<p class ="post-intro"> Technogies used:</p>
+							<li>Python</li>
+							<li>IEX Cloud API</li>
 							<br>
 							<a href="post.html">Read More</a>
 							
@@ -154,7 +166,10 @@
 						<div class="post-preview">
 							<h6 class="post-title">In Progress: Roomie </h6>
 							<p class="post-intro">An application which can help people relieve mental stress and connect with other individuals in tough times of COVID-19</p>
-							
+							<p class ="post-intro"> Technogies used:</p>
+							<li>HTML/CSS, JavaScript</li>
+							<li>Node.js</li>
+							<br>
 							<a href="post.html">Read More</a>
 						</div>
 					</div>
@@ -165,7 +180,11 @@
 						<img class="thumbnail" src="images/inprogress.png">
 						<div class="post-preview">
 							<h6 class="post-title">In Progress: Algorithmic Visualiser</h6>
-							<p class="post-intro">Uses python to visualise common algorithms such as quicksort, mergesort etc to help visualise beginners with data structures and algorithms.</p>
+							<p class="post-intro">Currently building an algorithmic visualiser for beginners to learn different data structures and algorithms through Python's Pygame</p>
+							<p class ="post-intro"> Technogies used:</p>
+
+							<li>Python</li>
+							<br>
 							<a href="post.html">Read More</a>
 						</div>
 					</div>
@@ -198,7 +217,7 @@
 						React
 					</button>
 					<button class = btn1 id ="azure">
-						Azure
+						Microsoft Azure
 					</button>
 					<button class = btn1 id ="aws">
 						AWS
@@ -210,31 +229,14 @@
 		</div>
 		
 	</section>
-<!-- 	
-	<section class="s2">
-		<div class="main-container">
-			<a href=""></a>
-			<h3 style="text-align: center;">Get In Touch</h3>
-
-			<form id="contact-form">
-				<a name="contact"></a>
-
-				<label>Name</label>
-				<input class="input-field" type="text" name="name">
-
-				<label>Subject</label>
-				<input class="input-field" type="text" name="subject">
-
-				<label>Email</label>
-				<input class="input-field" type="text" name="email">
-
-				<label>Message</label>
-				<textarea class="input-field" name="message"></textarea>
-
-				<input id="submit-btn" type="submit" value="Send">
-			</form>
+	<br>
+	<section class = "footer">
+		<div class = "social">
+			<a href="https://github.com/jb92595" target = "_blank"><i class="fab fa-github"></i></a>
+			<a href="mailto:jb92595@gmail.com" target = "_blank"><i class="fas fa-envelope-square"></i></a>
+			<a href="https://www.linkedin.com/in/andrew-park-7b8992195/" target = "_blank"><i class="fab fa-linkedin"></i></a>
 		</div>
-	</section>  -->
+	</section>
 
 	<script type="text/javascript" src="script.js"></script>
 </body>

@@ -496,9 +496,6 @@ h6 { font-size: 16px;}
 		justify-content: center;
 	}
 
-	.wrapper{
-		
-	}
 }
 
 @media screen and (max-width: 400px){
@@ -512,10 +509,6 @@ h6 { font-size: 16px;}
 	#preview{
 		width: 280px;
 
-	}
-
-	.wrapper{
-		
 	}
 
 }

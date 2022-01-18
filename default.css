@@ -80,14 +80,10 @@ h6 { font-size: 16px;}
 
 
 .s1{
-	/* background-color: var(--mainColor); */
-	/* border-bottom:1px transparent var(--borderColor); */
 	overflow:auto;
 }
 
 .s2{
-	/* background-color: var(--mainColor); */
-	/* border-bottom:1px solid var(--borderColor); */
 	overflow:auto;
 }
 
@@ -128,12 +124,10 @@ h6 { font-size: 16px;}
 	border-radius:5px 5px 0 0;
 	grid-area:nav-wrapper;
 	border-bottom: 1px solid var(--borderColor);
-	/* Puts contact at the right */
 	display: flex;
 
-	/* Horizontal - justify-content: center*/
 	justify-content: space-between;
-	/* Vertical */
+	
 	align-items: center;
 	background-color: var(--mainColor);
 }
@@ -256,8 +250,9 @@ h6 { font-size: 16px;}
 	height: 180px;
 	padding-left: 20px;
 	padding-top: 20px;
-	border-color: red;
-	border-width: 30px;
+	border: solid;
+	border-color: black;
+	border-width: 1px;
 }
 
 #preview{
@@ -265,6 +260,8 @@ h6 { font-size: 16px;}
 	background-color: var(--previewBg);
 	padding:15px;
 	position: relative;
+	border: solid 1px;
+	border-color: black;
 }
 
 .corner{
@@ -306,11 +303,6 @@ h6 { font-size: 16px;}
 	gap:100px;
 }
 
-/* .whitebox{
-	width:90%;
-	height: 1200px;
-	background-color: whitesmoke;
-} */
 
 .btn{
 	padding: 10px;
@@ -339,19 +331,10 @@ h6 { font-size: 16px;}
 	background-color: lightcyan;
 } 
 
-#python{
-	background-color: lightskyblue;
-}
-#htmlcss{
+#python, #htmlcss, #javascript, #c, #java{
 	background-color: lightskyblue;
 }
 
-#javascript{
-	background-color: lightskyblue;
-}
-#c{
-	background-color: lightskyblue;
-}
 #azure{
 	background-color: lightblue;
 }
@@ -392,7 +375,6 @@ h6 { font-size: 16px;}
 .post{
 	display:flex;
 	flex-direction: column;
-	/* height:90%; */
 	border:1px solid var(--borderColor);
 	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);

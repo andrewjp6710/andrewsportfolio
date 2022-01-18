@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter Consumer Sentiment Analysis</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="default.css">
+
+
+	<style type="text/css">
+		.img-container{
+			max-width: 600px;
+		}
+
+		img{
+			width: 100%
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="nav-wrapper">
+
+		<!-- Link around dots-wrapper added after tutorial video -->
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id="dot-2" class="browser-dot"></div>
+				<div id="dot-3" class="browser-dot"></div>
+			</div>
+		</a>
+
+		<ul id="navigation">
+			<li><a href="index.html#contact">Contact</a></li>
+
+		</ul>
+	</div>
+
+	<div class="main-container">
+	
+		<br>
+
+		<div class="img-container">
+			<img src="images/twitter.jpeg">
+		</div>
+		
+		<h3>Twitter Consumer Sentiment Analysis</h3>
+
+		<p>This was a project I worked on collaboratively to gain familiarity with Natural Language Processing.
+			<div class="img-container">
+				<img src="images/wooliesx8.png">
+			</div>
+		<br>
+		<br>
+		<p>The purpose of the algorithm was to analyse what consumers thought of certain brands to specify areas of improvement for these consumer-oriented companies by assigning programmtic meaning to bodies of text on Twitter.
+			<br>
+			<br>
+			The algorithm is mainly divided into three parts:
+		</p>	
+		<div class="img-container">
+			<img src="images/wooliesx1.png">
+		</div>
+		
+		<h3>Technologies:</h3>
+			<li>Python</li>
+			<li>Azure Cognitive Services</li>
+		
+		<br>
+		<h3>1. PageRank</h3>
+		<p> PageRank is an algorithm used by google which can contain hyperlinks to other websites. The website's importanec will be determiend by incoming edges and outgoing edges.</p> 
+		<br>
+		<p> To adapt PageRank to Twitter, we created a node for every user instead of webpage, and used follower/following ratio to filter out spam bots and rank importance.</p> 
+		<div class="img-container">
+			<img src="images/wooliesx7.png">
+		</div>
+		<h3>2. Status Search</h3>
+		<div class="img-container">
+			<img src="images/wooliesx5.png">
+		</div>
+		<h3>3. Status Analysis</h3>
+		<p> Sentiment analysis allowed us to categorise the bodies of text as either "positive" "neutral" or "negative".</p> 
+		<div class="img-container">
+			<img src="images/wooliesx6.png">
+		</div>
+		<br>
+		<br>
+		<h3>Output</h3>
+		<p> The code which we created made the following output for the company <b>Woolworths</b> and <b>Coles</b> as an example: </p>
+		<div class="img-container">
+			<img src="images/wx0.png">
+		</div>
+		<div class="img-container">
+			<img src="images/wx00.png">
+		</div>
+		<div class="img-container">
+			<img src="images/wx1.png">
+		</div>
+		<div class="img-container">
+			<img src="images/wx2.png">
+		</div>
+		<div class="img-container">
+			<img src="images/wx3.png">
+		</div>
+	</div>
+
+</body>
+</html>
+
+<!-- QuantConnect is an open-source, cloud-based algorithmic trading platform for equities, FX, futures, options, derivatives and cryptocurrencies. -->
